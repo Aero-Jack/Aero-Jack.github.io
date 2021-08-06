@@ -1,190 +1,95 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" >
+<html lang="zh-CN">
+ <head>
+     <meta charset="utf-8" />
+  <title>Aero Jack</title>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+  <link rel="stylesheet" href="https://Aero-Jack.github.io/styles/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+   <script src="https://cdn.staticfile.org/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+ </head>
+ <body>
+     <div class="sidebar animated fadeInDown">
+   <div class="logo-title">
+    <div class="title">
+     <img src="https://Aero-Jack.github.io/images/avatar.png?v=1628260314559" style="width:127px;" />
 
-<title>Aero Jack</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://Aero-Jack.github.io/favicon.ico?v=1628259809765">
-<link rel="stylesheet" href="https://Aero-Jack.github.io/styles/main.css">
-
+     <div class="description">
+      <p>Passion into Aviation</p>
+     </div>
+    </div>
+   </div>
+   <ul class="social-links">
 
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
-
-
-    <meta name="description" content="Passion into Aviation">
     
-  </head>
-  <body>
-    <div id="app" class="main">
 
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://Aero-Jack.github.io">
-        <img src="https://Aero-Jack.github.io/images/avatar.png?v=1628259809765" class="site-logo">
-        <h1 class="site-title">Aero Jack</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+   </ul>
+   <div class="footer">
+    <div class="by_farbox">
+   Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
     </div>
-    <div>
-      
-        
-          <a href="/" class="site-nav">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="site-nav">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
+    
+
     </div>
+   </div>
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
+  <div class="main">
+      <div class="page-top animated fadeInDown">
+    <div class="nav">
+
+     <li><a  href="/">首页</a></li>
+
+     <li><a  href="/archives">归档</a></li>
+
+     <li><a  href="/tags">标签</a></li>
+
+     <li><a  href="/post/about">关于</a></li>
+
+
     </div>
-    <div class="site-description">
-      Passion into Aviation
+    <div class="information">
+     <div class="back_btn">
+      <li><a class="fa fa-chevron-left" onclick="window.history.go(-1)" style="display:none;"> </a></li>
+     </div>
     </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://Aero-Jack.github.io/atom.xml" target="_blank">RSS</a>
+   </div>
+   <div class="autopagerize_page_element">
+    <div class="content">
+            
+     <div class="pagination">
+      <ul class="clearfix">
+            
+        
+
+      </ul>
+     </div>
     </div>
+   </div>
   </div>
-</div>
+  <script src="https://Aero-Jack.github.io/media/scripts/jquery.js"></script>
+  <script src="https://Aero-Jack.github.io/media/scripts/jquery-migrate-1.2.1.min.js"></script>
+  <script src="https://Aero-Jack.github.io/media/scripts/jquery.appear.js"></script>
 
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://Aero-Jack.github.io/post/about/">
-                  <h2 class="post-title">关于</h2>
-                </a>
-                <div class="post-date">
-                  2019-01-25
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://Aero-Jack.github.io/post/di-er-ci-ce-shi-nei-rong/">
-                  <h2 class="post-title">第二次测试内容</h2>
-                </a>
-                <div class="post-date">
-                  2021-08-06
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://Aero-Jack.github.io/post/ce-shi-bo-ke/">
-                  <h2 class="post-title">测试博客</h2>
-                </a>
-                <div class="post-date">
-                  2021-08-06
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://Aero-Jack.github.io/post/hello-gridea/">
-                  <h2 class="post-title">Hello Gridea</h2>
-                </a>
-                <div class="post-date">
-                  2018-12-12
-                </div>
-                <div class="post-abstract">
-                  <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-
-                </div>
-              </div>
-              
-                <a class="right" href="https://Aero-Jack.github.io/post/hello-gridea/">
-                  <div class="feature-container" style="background-image: url('https://Aero-Jack.github.io/post-images/hello-gridea.png')">
-                  </div>
-                </a>
-              
-            </article>
-          
-
-          <div class="pagination-container">
-  
-  
-</div>
-
-        </div>
-      </div>
-    </div>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script type="application/javascript">
-
-AOS.init();
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
-</script>
-
-
-
-
-
-
-  </body>
+ </body>
 </html>
