@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Aero-Jack.github.io</id>
     <title>Aero Jack</title>
-    <updated>2021-08-06T14:36:02.225Z</updated>
+    <updated>2021-08-10T11:44:12.269Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Aero-Jack.github.io"/>
     <link rel="self" href="https://Aero-Jack.github.io/atom.xml"/>
@@ -10,4 +10,25 @@
     <logo>https://Aero-Jack.github.io/images/avatar.png</logo>
     <icon>https://Aero-Jack.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Aero Jack</rights>
+    <entry>
+        <title type="html"><![CDATA[晶粒方向 grain direction]]></title>
+        <id>https://Aero-Jack.github.io/post/jing-li-fang-xiang-grain-direction/</id>
+        <link href="https://Aero-Jack.github.io/post/jing-li-fang-xiang-grain-direction/">
+        </link>
+        <updated>2021-08-10T11:37:50.000Z</updated>
+        <content type="html"><![CDATA[<p>钣金的晶粒方向就是金属延展的方向，RD；</p>
+<p><img src="https://Aero-Jack.github.io/post-images/1628595718324.png" alt="" loading="lazy"><br>
+因此钣金在折弯的时候，折弯的bend line/heel line/折弯线是垂直于晶粒方向的。你可以想想晶粒是一条线，类似于复合材料，垂直于fiber不会折断；平行于fiber的话，反而fiber是分开的。<br>
+<img src="https://Aero-Jack.github.io/post-images/1628595741993.png" alt="" loading="lazy"><br>
+下图垂直于晶粒方向，不会又断裂；平行于晶粒方向就有可能产生断裂<br>
+<img src="https://Aero-Jack.github.io/post-images/1628595751833.png" alt="" loading="lazy"><br>
+L或者RD都是晶粒方向，LT是宽度方向，ST就是厚度方向。LT,ST都是扩展的方向。<br>
+<img src="https://Aero-Jack.github.io/post-images/1628595776612.png" alt="" loading="lazy"><br>
+这里可以看到ST,LT以及L<br>
+for rectangular hand forgings, the call-out for hand forgings is in this order: Short transverse [ST], (Thickness), Long transverse [LT], (width) and finally the Longitudinal [L] (length).<br>
+<img src="https://Aero-Jack.github.io/post-images/1628595782737.png" alt="" loading="lazy"><br>
+这里指明出来，对于折弯的时候，如何选对方向。垂直于晶粒方向最好。<br>
+<img src="https://Aero-Jack.github.io/post-images/1628595790080.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
 </feed>
